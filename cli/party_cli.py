@@ -39,8 +39,6 @@ async def cmd_create(name: str = None, output: str = None):
         print("\n" + "=" * 70)
         print("⚠️  IMPORTANT: Please save your private key securely!")
         print("=" * 70)
-        print("\nTo activate this party, add the following to your .env file:")
-        print(f"CANTON_PARTY_ID={result['partyId']}")
         print("\nThen restart any running processes or shells that cached environment variables.")
 
         # Save credentials to file
